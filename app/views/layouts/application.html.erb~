@@ -6,9 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<!-- START_HIGHLIGHT -->
-<body class='<%= controller.controller_name %>'>
-<!-- END_HIGHLIGHT -->
+<body>
 
 <%= yield %>
 
